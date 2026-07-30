@@ -13,3 +13,16 @@
 
 - ¿Cómo funciona realmente el decorador `@app.get`?
 - ¿Por qué FastAPI convierte un diccionario en JSON 
+
+## Día 2
+
+### Conceptos aprendidos
+
+- Modelo
+- Arquitectura del proyecto
+- Separación de responsabilidades
+- CRUD
+
+### Lo que entendí
+
+Antes de escribir código es importante diseñar la estructura del proyecto para que sea más fácil de mantener cuando crezca.
