@@ -47,3 +47,34 @@ Representan las tablas de la base de datos y utilizan SQLAlchemy.
 
 ### Schemas
 Representan los datos que la API recibe y devuelve. Utilizan Pydantic para validar la información antes de llegar a la base de datos.
+
+## PUT vs DELETE
+
+PUT se utiliza para actualizar un recurso existente.
+
+DELETE se utiliza para eliminar un recurso existente.
+
+Ambos utilizan el ID del producto para localizar el registro.
+## Query Parameters
+
+Los query parameters permiten enviar filtros o parámetros en la URL.
+
+Ejemplo:
+
+GET /products/search?nombre=laptop
+
+FastAPI puede recibirlos como parámetros de la función.
+
+## Parámetros de ruta vs Query Parameters
+
+Parámetro de ruta:
+
+GET /products/5
+
+El ID forma parte de la ruta.
+
+Query parameter:
+
+GET /products/search?nombre=laptop
+
+El filtro se encuentra después de `?`.
