@@ -15,3 +15,12 @@ También aprendí a utilizar:
 - query()
 - filter()
 - first()
+## Búsqueda de productos
+
+Implementé búsqueda de productos por:
+
+- Nombre
+- Categoría
+- Nombre y categoría simultáneamente
+
+Utilicé `filter()` e `ilike()` de SQLAlchemy.
