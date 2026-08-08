@@ -24,3 +24,14 @@ Implementé búsqueda de productos por:
 - Nombre y categoría simultáneamente
 
 Utilicé `filter()` e `ilike()` de SQLAlchemy.
+
+## Seguridad de credenciales
+
+Problema:
+La contraseña de MySQL estaba escrita directamente en database.py.
+
+Solución:
+Moví las credenciales a variables de entorno utilizando un archivo .env.
+
+También agregué .env a .gitignore para evitar que las credenciales se
+suban al repositorio.
