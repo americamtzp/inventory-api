@@ -78,3 +78,15 @@ Query parameter:
 GET /products/search?nombre=laptop
 
 El filtro se encuentra después de `?`.
+
+## Variables de entorno
+
+No es recomendable almacenar contraseñas o información sensible directamente
+en el código fuente.
+
+Utilicé un archivo `.env` para almacenar las credenciales de la base de datos
+y `python-dotenv` para cargarlas en la aplicación.
+
+El archivo `.env` está incluido en `.gitignore` para evitar subir las
+credenciales al repositorio.
+
